@@ -1,0 +1,175 @@
+p
+{
+color: black;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: #060110;
+    font-size: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color:rgb(88, 228, 228);
+}
+h2{
+    background-color: rgb(215, 191, 237);
+}
+p{
+    background-color: rgb(241, 241, 204);
+}
+img {
+    max-width: 100%;
+    border-radius: 30px;
+}
+h3{
+    background-color: rgb(214, 214, 175)
+}
+/* EDUCATION CARD */
+.education-card {
+    background-color: #f5f0fc;
+    padding: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+/* EDUCATION CARD */
+h3{
+    background-color: #f5f0fc;
+}
+p{
+    background-color:#f5f0fc ;
+}
+/* CSS VARIABLES*/
+:root {
+    --main: #4b2a8a;
+    --light: #f7f1fc;
+    --accent: #287c78;
+    --dark: #333333;
+}
+/*GENERAL STYLING */
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: var(--light);
+    color: var(--dark);
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+/*MAIN HEADING */
+h1 {
+    color: white;
+    background: linear-gradient(135deg, var(--main), var(--accent));
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 20px;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+/*ALL SECTION HEADINGS*/
+h2 {
+    color: var(--main);
+    background-color: #e8ddf5;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 10px;
+    border-left: 5px solid var(--main);
+    border-radius: 5px;
+}
+h3 {
+    color: var(--accent);
+    font-size: 1.2rem;
+}
+
+/* PARAGRAPHS */
+p {
+    color: var(--dark);
+    font-size: 1rem;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+/* LINKS AND HOVER */
+a {
+    color: var(--main);
+    text-decoration: none;
+    font-weight: 600;
+}
+a:hover {
+    color: var(--accent);
+    text-decoration: underline;
+}
+
+/*IMAGES */
+img {
+    max-width: 100%;
+    border: 3px solid var(--main);
+    border-radius: 15px;
+}
+/* LISTS*/
+li {
+    color: var(--dark);
+    margin-bottom: 8px;
+}
+/* EDUCATION CARD*/
+section {
+    background-color: white;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+/* FOOTER*/
+footer {
+    background-color: var(--main);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+footer p {
+    color: white;
+}
+/*  HORIZONTAL LINE */
+hr {
+    border: 1px solid var(--accent);
+    margin: 20px 0;
+}
+/* ID SELECTOR */
+#title {
+    color: white;
+    text-align: center;
+}
+/* GROUP SELECTOR */
+h3, p {
+    line-height: 1.6;
+}
+/* DESCENDANT SELECTOR*/
+footer a {
+    color: white;
+}
+/* CLASS SELECTOR*/
+.card {
+    background-color: #f7f1fc;
+    padding: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+footer {
+    background-color: var(--main);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+footer p {
+    color: white;
+    background-color: transparent;
+}
